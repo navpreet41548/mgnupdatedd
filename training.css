@@ -1,0 +1,112 @@
+.trainingPara {
+  width: 900px;
+}
+
+.trainingHeading {
+  width: 70%;
+  max-width: 1200px;
+}
+
+.detail {
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  padding: 50px 5%;
+}
+
+.detailHeading {
+  color: #1d1d1d;
+  font-size: 25px;
+  font-family: "Red Rose", cursive;
+}
+.detailList i {
+  font-size: 20px;
+  color: #ff5500;
+  padding: 5px 0;
+}
+
+.detailText {
+  color: #5a5a5a;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.detailLeft {
+  width: 60%;
+}
+.detailRight {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailImage {
+  width: 90%;
+}
+
+.detailList {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.moreDetail {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+.diff3 {
+  color: #ff5500;
+}
+
+.detailPara {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #5a5a5a;
+  margin: 10px 0;
+}
+
+.paraBold {
+  font-weight: 600;
+}
+
+.registerButton {
+  width: 170px;
+  text-align: center;
+  background-color: #ff5500;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  display: block;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .detailHeading {
+    font-size: 20px;
+  }
+  .detailText {
+    font-size: 15px;
+  }
+  .detailPara {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .trainingHeading {
+    font-size: 25px;
+    width: 100%;
+  }
+  .trainingPara {
+    width: 100%;
+  }
+  .detailRight {
+    display: none;
+  }
+  .detailLeft {
+    width: 100%;
+  }
+}

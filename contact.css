@@ -1,0 +1,140 @@
+.contact {
+  background-color: #1c1c1c;
+}
+
+.contactContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50vh;
+  padding-top: 10vh;
+}
+
+.contactLeft {
+  width: 40%;
+}
+.contactRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactMainHeading {
+  color: white;
+  font-family: "Red Rose", cursive;
+  font-size: 55px;
+}
+
+.contactPara {
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.contactInput {
+  background: none;
+  border: none;
+  /* border-bottom: 1px solid ; */
+  border-bottom: 1px solid #8e8e8e;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-size: 18px;
+  outline: none;
+  color: white;
+}
+
+.contactTextArea {
+  resize: none;
+}
+
+::placeholder {
+  color: white;
+}
+
+.contactFormButton {
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  width: 170px;
+  padding: 8px 0;
+  background-color: #ff5500;
+  color: white;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.mapWrapper {
+  width: 50%;
+}
+
+.contactSocialContainer {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1500px) {
+  .contactRight {
+    width: 30%;
+  }
+  .contactLeft {
+    width: 50%;
+  }
+  .mapWrapper {
+    width: 100%;
+  }
+  .contactMainHeading {
+    font-weight: 400;
+    font-size: 35px;
+  }
+  .contactPara {
+    font-size: 18px;
+  }
+  .contactInput {
+    font-size: 15px;
+  }
+  .contactPara {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .contactContent {
+    flex-direction: column;
+  }
+  .contactLeft {
+    width: 100%;
+    text-align: center;
+  }
+  .contactFormButton {
+    margin: auto;
+    margin-top: 30px;
+  }
+  .contactRight {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactMainHeading {
+    font-size: 25px;
+  }
+  .contactPara {
+    font-size: 15px;
+  }
+  .contactFormButton {
+    font-weight: 400;
+  }
+}
